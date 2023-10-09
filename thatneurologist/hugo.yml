@@ -37,47 +37,46 @@ languages:
       weight: 1
       profileMode:
         enabled: true
-        title: (〃'▽'〃)
-        subtitle: "🧨学而时习之，不亦说乎？有朋自远方来，不亦乐乎？<br/>👏🏼欢迎光临素履(Sulv)的博客<br/>👇联系方式"
-        imageUrl: "img/Q.gif" #图片放在static/img/Q.gif
+        title: 开窍
+        subtitle: ""
+        imageUrl: "img/label.png" #图片放在static/img/Q.gif
         imageTitle: 
         imageWidth: 150
         imageHeight: 150
         buttons:
-          - name: 👨🏻‍💻技术
-            url: posts/tech
-          - name: 📕阅读
-            url: posts/read
-          - name: 🏖生活
-            url: posts/life
+          - name: 文章
+            url: posts
+          - name: 标签
+            url: tags
+        
       menu:
         main:
           - identifier: search
-            name: 🔍搜索
+            name: 🔍
             url: search
             weight: 1
           - identifier: home
-            name: 🏠主页
+            name: 🏠
             url: /
             weight: 2
           - identifier: posts
-            name: 📚文章
+            name: 📚
             url: posts
             weight: 3
           - identifier: archives
-            name: ⏱时间轴
+            name: ⏱
             url: archives/
             weight: 20
           - identifier: tags
-            name: 🔖标签
+            name: 🔖
             url: tags
             weight: 40
           - identifier: about
-            name: 🙋🏻‍♂️关于
+            name: 🙋🏻‍♂️
             url: about
             weight: 50
           - identifier: links
-            name: 🤝友链
+            name: 🤝
             url: links
             weight: 60
 
@@ -89,8 +88,8 @@ outputs:
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    # description: "这是一个纯粹的博客......"
-    author: Sulv
+    description: "这是一个纯粹的博客......"
+    author: Me
     # author: ["Me", "You"] # multiple authors
     defaultTheme: auto  # defaultTheme: light or  dark 
     disableThemeToggle: false
@@ -114,20 +113,8 @@ params:
     comments: true
     
     socialIcons:
-        - name: github
-          url: "https://github.com/xyming108"
-        - name: twitter
-          url:  "img/twitter.png"
-        - name: facebook
-          url: "https://www.facebook.com/profile.php?id=100027782410997"
         - name: instagram
-          url: "img/instagram.png"
-        - name: QQ
-          url: "img/qq.png"
-        - name: WeChat
-          url: "img/wechat.png"
-        - name: email
-          url: "mailto:1931559710@qq.com"
+          url: "https://www.instagram.com/eranotfat/"
         - name: RSS
           url: "index.xml"
 
@@ -137,9 +124,9 @@ params:
     #     appendFilePath: true # to append file path to Edit link
 
     label:
-      text: "Sulv's Blog"
+      text: "开窍"
       #icon: "img/Q.gif"
-      icon: "https://www.sulvblog.cn/Q.gif"
+      icon: "img/label.png"
       iconHeight: 35
 
     # analytics:  #谷歌分析
