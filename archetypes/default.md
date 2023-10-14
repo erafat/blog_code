@@ -3,11 +3,12 @@ title: "{{ replace .Name "-" " " | title }}" #标题
 date: {{ .Date }} #创建时间
 lastmod: {{ .Date }} #更新时间
 author: ["Me"] #作者
-
 categories: 
 - 分类1
+- 分类2
 tags: 
 - 标签1
+- 标签2
 description: "" #描述
 weight: # 输入1可以顶置文章，用来给文章展示排序，不填就默认按时间排序
 slug: ""
