@@ -35,50 +35,57 @@ languages:
       languageName: "Chinese"
       # contentDir: content/english
       weight: 1
-      profileMode:
-        enabled: true
-        title: 开窍
-        subtitle: ""
-        imageUrl: "img/label.png" #图片放在static/img/Q.gif
-        imageTitle: 
-        imageWidth: 150
-        imageHeight: 150
-        buttons:
-          - name: 文章
-            url: posts
-          - name: 
-            url: tags
-        
-      menu:
-        main:
-          - identifier: search
-            name: 🔍
-            url: search
-            weight: 1
-          - identifier: home
-            name: 🏠
-            url: /
-            weight: 2
-          - identifier: posts
-            name: 📚
-            url: posts
-            weight: 3
-          - identifier: archives
-            name: ⏱
-            url: archives/
-            weight: 20
-          - identifier: tags
-            name: 🔖
-            url: tags
-            weight: 40
-          - identifier: about
-            name: 🙋🏻‍♂️
-            url: about
-            weight: 50
-          - identifier: links
-            name: 🤝
-            url: links
-            weight: 60
+
+
+homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: Welcome to my blog
+
+profileMode:
+    enabled: false
+    title: 开窍
+    subtitle: ""
+    imageUrl: "img/label.png" #图片放在static/img/Q.gif
+    imageTitle: 
+    imageWidth: 150
+    imageHeight: 150
+    buttons:
+        - name: 文章
+          url: posts
+        - name: 
+          url: tags
+
+menu:
+  main:
+    - identifier: posts
+      name: 字儿
+      url: posts
+      weight: 1
+    - identifier: search
+      name: 搜索
+      url: search
+      weight: 2
+    - identifier: tags
+      name: 标签
+      url: tags
+      weight: 40
+    - identifier: Things
+      name: 好物
+      url: links
+      weight: 50
+    - identifier: about
+      name: 我
+      url: about
+      weight: 60
+    ##- identifier: home
+      ##name: Home
+      ##url: home
+      ##weight: 2
+    ##- identifier: archives
+      ##name: ⏱
+      ##url: archives/
+      ##weight: 20
+
 
 outputs:
     home:
@@ -88,7 +95,7 @@ outputs:
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    description: "这是一个纯粹的博客......"
+    description: "关于医学，行为科学，睡眠的博客; a blog on sleep, medicine, neurology and behavioral science"
     author: Me
     # author: ["Me", "You"] # multiple authors
     defaultTheme: auto  # defaultTheme: light or  dark 
