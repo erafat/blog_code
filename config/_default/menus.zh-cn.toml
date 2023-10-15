@@ -43,7 +43,7 @@
 #  weight = 20
 
 [[main]]
-  name = "文章"
+  name = "文"
   pageRef = "posts"
   weight = 10
 
@@ -58,10 +58,10 @@
 #   pageRef = "project"
 #   weight = 10
 
-# [[main]]
-#   name = "Project"
-#   pageRef = "project"
-#   weight = 20
+[[main]]
+ name = "以物喜"
+ pageRef = "stuff"
+ weight = 20
 
 # [[main]]
 #   name = "Book Note"
@@ -76,7 +76,7 @@
 #  weight = 30
 
 [[main]]
-  name = "关于"
+  name = "我"
   pageRef = "about"
   weight = 40
 
