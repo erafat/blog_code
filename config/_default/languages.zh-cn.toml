@@ -17,10 +17,12 @@ title = "开窍"
   name = "尔大夫"
   image = "img/title.png"
   headline = ""
-  #bio = ""
-  links = [
-     { instagram = "https://instagram.com/eranotfat" },
-  ]
+  bio = "> 播客《超大杯美式》 [Apple Podcast](https://podcasts.apple.com/us/podcast/%E8%B6%85%E5%A4%A7%E6%9D%AF%E7%BE%8E%E5%BC%8F/id1304595060)，[Overcast](https://overcast.fm/itunes1304595060)"
+  #links = [
+  #   { instagram = "https://instagram.com/eranotfat" },
+  #]
+
+
 
 #   links = [
 #     { email = "mailto:hello@your_domain.com" },
