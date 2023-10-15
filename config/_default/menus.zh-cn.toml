@@ -43,9 +43,14 @@
 #  weight = 20
 
 [[main]]
-  name = "Posts"
+  name = "文章"
   pageRef = "posts"
   weight = 10
+
+[[main]]
+  name = "标签"
+  pageRef = "tags"
+  weight = 20
 
 # [[main]]
 #   name = "Project"
@@ -71,7 +76,7 @@
 #  weight = 30
 
 [[main]]
-  name = "About"
+  name = "关于"
   pageRef = "about"
   weight = 40
 
@@ -85,7 +90,4 @@
   ##pageRef = "project"
   ##weight = 10
 
-##[[footer]]
-  ##name = "Tags"
-  #pageRef = "tags"
-  #weight = 20
+

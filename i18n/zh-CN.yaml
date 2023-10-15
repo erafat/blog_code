@@ -58,15 +58,15 @@ sharing:
   twitter: "Tweet on Twitter"
 
 shortcode:
-  recent_articles: "最近"
+  recent_articles: ""
 
 recent:
-  show_more: "看更多"
+  show_more: "更多"
   
 Posts:
-  posts: "文章"
+  Posts: "文章"
 
 About:
-  about: "我"
+  About: "我"
 
   

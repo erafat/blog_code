@@ -8,16 +8,16 @@ title = "开窍"
   isoCode = "zh-cn"
   rtl = false
   dateFormat = "2006-01-02"
-  logo = "img/logo.png"
+ # logo = "img/logo.jpg"
   # secondaryLogo = "img/secondary-logo.png"
-  description = "开窍的独立博客"
+  description = "医学，睡眠，行为科学，什么都沾点边儿"
   # copyright = "Copy, _right?_ :thinking_face:"
 
 [author]
   name = "尔大夫"
-  image = "img/avatar.jpg"
-  headline = "I'm only human"
-  bio = "医生"
+  image = "img/title.png"
+  headline = ""
+  #bio = ""
   links = [
      { instagram = "https://instagram.com/eranotfat" },
   ]
